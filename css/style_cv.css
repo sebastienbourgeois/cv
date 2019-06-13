@@ -7,7 +7,7 @@ h2 {
 	color: #339CFF;
 }
 
-.enTete {
+header {
 	text-align: center;
 }
 
@@ -29,4 +29,29 @@ body {
 	background-repeat: no-repeat;
 	background-position: center;
 	font-family: 'SourceSansPro', Arial, serif;
+}
+
+.lisere {
+	background-color: #444;
+	width: 350px;
+	border-radius: 10px;
+	margin-right: 10px;
+}
+
+#conteneurPrincipal {
+	display: flex;
+}
+
+#conteneurContenuCV {
+	display: flex;
+	flex-direction: column;
+}
+
+#conteneurCorpsCV {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+section {
+	width: 33%;
 }
